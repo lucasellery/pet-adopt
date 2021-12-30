@@ -1,4 +1,5 @@
 import { useEffect, useState, useContext, FunctionComponent } from "react";
+import { useSelector } from "react-redux";
 import ThemeContext from "./ThemeContext";
 import useBreedList from "./useBreedList";
 import Results from "./Results";
